@@ -47,11 +47,23 @@ btn2.addEventListener('click', function () {
     }
 })
 
-// let img2 = document.getElementById('img2');
-// btn2.addEventListener('mouseover', function() {
-//         img2.style.opacity = '1';
-// } )
-// btn2.addEventListener('mouseleave', function() {
-//         img2.style.opacity = '0';
-// } )
+// mouseover btn1
+let img1 = document.getElementById('img1');
+btn1.addEventListener('mouseover', ()=> { 
+    img1.style.opacity = '1';
+})
+btn1.addEventListener('mouseleave', () => {
+    img1.style.opacity = '';
+})
 
+// mouseover btn2
+let img2 = document.getElementById('img2');
+btn2.addEventListener('mouseover', test3);
+
+function test3() {
+    img2.style.opacity = '1';
+}
+
+btn2.addEventListener('mouseleave', function () {
+    img2.style.opacity = '';
+})

@@ -37,6 +37,7 @@ body {
     0% {
         opacity: 0;
     }
+
     100% {
         opacity: 1;
     }
@@ -92,16 +93,23 @@ h1 {
     font-size: 3rem;
 }
 
-.btn-1 {
-    margin-top: -27.8rem;
-    margin-left: 9rem;
-    padding: 0.5rem;
-    border-radius: 10px;
-    position: absolute;
-    z-index: 1;
+.flex2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
-.btn-1:hover {
+.btn {
+    pointer-events: fill;
+    /* margin-top: -27.8rem; */
+    padding: 0.5rem;
+    border-radius: 10px;
+    /* position: absolute; */
+    z-index: 1;
+    pointer-events: fill;
+}
+
+.btn:hover {
     transform: scale(1.1);
 }
 
@@ -114,6 +122,20 @@ h1 {
     z-index: 1;
 }
 
-.btn-2:hover {
+.btn:hover {
     transform: scale(1.1);
+}
+
+@media screen and (max-width: 900px) {
+    .l {
+        display: none;
+    }
+
+    .r {
+        display: none;
+    }
+    .text {
+        margin-top: 6rem;
+        position: none;
+    }
 }
