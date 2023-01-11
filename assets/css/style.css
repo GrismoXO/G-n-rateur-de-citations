@@ -48,7 +48,7 @@ body {
 .text {
     z-index: 0.5;
     margin-top: -45%;
-    margin-left: 4rem;
+    /* margin-left: 4rem; */
     position: absolute;
 }
 
@@ -60,6 +60,10 @@ body {
 
 .marg {
     margin: 3.1rem;
+}
+
+.marg1 {
+    margin: 3.1rem 3.1rem 3.1rem 7.1rem;
 }
 
 p {
