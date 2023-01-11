@@ -28,7 +28,18 @@ body {
 }
 
 .l:hover img {
+    animation-name: slide;
+    animation-duration: 1s;
     opacity: 1;
+}
+
+@keyframes slide {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 .r {
@@ -42,7 +53,13 @@ body {
 }
 
 .r:hover img {
+    animation-name: slide;
+    animation-duration: 1s;
     opacity: 1;
+}
+
+.menu {
+    pointer-events: fill;
 }
 
 .text {
@@ -50,6 +67,7 @@ body {
     margin-top: -45%;
     /* margin-left: 4rem; */
     position: absolute;
+    pointer-events: none;
 }
 
 .sizeimg {
@@ -75,7 +93,7 @@ h1 {
 }
 
 .btn-1 {
-    margin-top: -27.5rem;
+    margin-top: -27.8rem;
     margin-left: 9rem;
     padding: 0.5rem;
     border-radius: 10px;
@@ -88,7 +106,7 @@ h1 {
 }
 
 .btn-2 {
-    margin-top: -27.5rem;
+    margin-top: -27.8rem;
     margin-left: -11.5rem;
     padding: 0.5rem;
     border-radius: 10px;
