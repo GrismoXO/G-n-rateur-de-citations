@@ -9,6 +9,7 @@ body {
     background-color: black;
     margin: 0;
     font-family: PressStart2P;
+    width: 100vw;
 }
 
 .flex {
@@ -124,18 +125,4 @@ h1 {
 
 .btn:hover {
     transform: scale(1.1);
-}
-
-@media screen and (max-width: 900px) {
-    .l {
-        display: none;
-    }
-
-    .r {
-        display: none;
-    }
-    .text {
-        margin-top: 6rem;
-        position: none;
-    }
 }
