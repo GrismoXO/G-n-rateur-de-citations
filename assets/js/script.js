@@ -26,8 +26,8 @@ function test() {
 }
 
 // Tableau n°2
-let tableaududebutnormi = ['- Demain ', '- Ce soir go', '- Si je dors 4h', '- Je reste '];
-let tableaudumilieunormi = ['ce n est pas', 'un petit film', 'je dois', ' je sors', 'chez'];
+let tableaududebutnormi = ['- Demain', '- Ce soir go', '- Si je dors 4h', '- Je reste'];
+let tableaudumilieunormi = ['ce n\'est pas', 'un petit film', 'je dois', ' je sors', 'chez'];
 let tableaudefinnormi = ['raisonnable.', 'et au dodo.', 'me lever tôt.', 'avec des amis.', 'moi.'];
 
 // bouton + fontion n°2
